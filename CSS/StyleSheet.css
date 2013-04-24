@@ -1,0 +1,62 @@
+﻿*
+{
+    font-family: Calibri;
+}
+
+body 
+{
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: lightgoldenrodyellow;
+}
+header
+{
+    height: 25px;
+}
+    header h1
+    {
+        text-align: center;
+    }
+
+.MenuNav
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MainMenu
+{
+    width: 900px;
+    background-color: blue;   
+}
+    .MainMenu li
+    {
+        padding-right: 20px;
+    }
+    .MainMenu a
+    {
+        color: white;
+    }
+
+ul.level2, ul.level3
+{
+    background-color: gray;
+}
+
+ul a.level2:hover, ul a.level3:hover
+{
+    background-color: lightgray;
+}
+
+#TreeView
+{
+    float:left;
+    width: 195px;
+}
+
+#MainContent
+{
+    float:right;
+    width:700px;
+}

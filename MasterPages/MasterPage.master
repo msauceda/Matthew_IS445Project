@@ -1,0 +1,41 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div> 
+        <header>
+            <h1>Matthew Sauceda's ASP.NET Website in Windows Azure</h1>
+        </header>                  
+        <nav class="MenuNav">
+            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <section id="TreeView">
+        <nav>
+             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                <LevelStyles>
+                    <asp:TreeNodeStyle />
+                </LevelStyles>
+            </asp:TreeView>
+        </nav>
+        </section>
+        <section id="MainContent">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </section>
+    </div>
+    </form>
+</body>
+</html>
