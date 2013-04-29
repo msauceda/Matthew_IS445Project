@@ -16,12 +16,13 @@
             <h1>Matthew Sauceda's ASP.NET Website in Windows Azure</h1>
         </header>                  
         <nav class="MenuNav">
-            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+            </asp:Menu>
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
         </nav>
         <section id="TreeView">
         <nav>
-             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" SkipLinkText="">
                 <LevelStyles>
                     <asp:TreeNodeStyle />
                 </LevelStyles>
@@ -29,7 +30,9 @@
         </nav>
         </section>
         <section id="MainContent">
-            <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+            <nav class="SiteMapPath">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+            </nav>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>

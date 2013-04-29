@@ -1,0 +1,56 @@
+﻿body {
+    width: 680px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+header
+{
+    width: inherit;
+    height: 50px;
+    background-color: black;
+}
+
+nav
+{
+    width: inherit;
+    height: 25px;
+    background-color: purple;
+}
+
+nav li, nav a
+{
+    display: inline;
+    padding-right: 15px;
+    color: white;
+}
+
+article
+{
+    width: 454px;
+    height: 170px;
+    background-color: darkblue;
+}
+
+section
+{
+    width: 454px;
+    height: 50px;
+    background-color: darkred;
+    margin-top: 15px;
+}
+
+aside
+{
+    width: 226px;
+    height: 170px;
+    background-color: green;
+}
+
+footer
+{
+    width: 680px;
+    height: 25px;
+    background-color: darkkhaki;
+}

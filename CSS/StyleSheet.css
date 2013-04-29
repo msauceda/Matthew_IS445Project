@@ -12,7 +12,7 @@ body
 }
 header
 {
-    height: 25px;
+    height: 20px;
 }
     header h1
     {
@@ -21,7 +21,7 @@ header
 
 .MenuNav
 {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@ ul.level2, ul.level3
     background-color: gray;
 }
 
-ul a.level2:hover, ul a.level3:hover
+ul.level2 li:hover, ul.level3 li:hover
 {
     background-color: lightgray;
 }
@@ -52,11 +52,52 @@ ul a.level2:hover, ul a.level3:hover
 #TreeView
 {
     float:left;
-    width: 195px;
+    width: 200px;
+    margin-top: 0px;
+}
+TreeView#TreeView1
+{
+    background-color: red;
+}
+
+nav.SiteMapPath
+{
+    padding-bottom: 20px;
 }
 
 #MainContent
 {
     float:right;
     width:700px;
+}
+
+h2.spacing
+{
+    margin-top:0px;
+}
+
+section.NestedLoop
+{
+    border: solid;
+    border-color: lightcoral;
+    border-width: medium;
+    padding: 10px;
+    color: darkgreen;
+}
+
+#validAnswer
+{
+    color: green;
+    margin-bottom: 0px;
+}
+
+#invalidAnswer
+{
+    color: red;
+    margin-bottom: 0px;
+}
+
+.star
+{
+    color: darkblue;
 }

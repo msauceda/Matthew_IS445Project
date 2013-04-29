@@ -1,0 +1,33 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageHW7.master.vb" Inherits="MasterPageHW7" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header>
+            <h1>Sauceda, Matthew Homework 7</h1>
+            <hr />
+        </header>
+        
+        <section id="MainContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">                
+            </asp:ContentPlaceHolder>
+        
+        <footer>
+            <p class="footer">Matthew Sauceda&copy Contact Information</p>
+            <address class="footer"><em>E-mail: </em><a href="mailto: m__sauceda@hotmail.com"><em>m__sauceda@hotmail.com</em></a></address>
+            <address class="footer"><em>Phone: 562-523-1235</em></address>
+        </footer>
+        </section>
+    </div>
+    </form>
+</body>
+</html>

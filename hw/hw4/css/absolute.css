@@ -1,0 +1,12 @@
+﻿body {
+    position: absolute;
+    left: 50%;
+    margin-left: -340px;
+}
+
+aside
+{
+    position: absolute;
+    left: 454px;
+    top: 75px;
+}

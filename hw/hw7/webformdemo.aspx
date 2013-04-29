@@ -1,9 +1,14 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="WebForm.aspx.vb" Inherits="Form_Layout_Demos_WebForm" %>
+﻿<%@ Page Title="Web Form Demo" Language="VB" MasterPageFile="~/hw/hw7/MasterPageHW7.master" AutoEventWireup="false" CodeFile="webformdemo.aspx.vb" Inherits="webform" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h2 class="spacing">Welcome to my Web Form</h2>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <nav>
+        <a href="default.aspx" class="nav">Home</a>
+        <a href="webformdemo.aspx" class="nav">Web Form Demo</a>
+        <a href="aboutme.aspx" class="nav">About Me</a>
+    </nav>
+    <h2>Welcome to my Web Form</h2>
     <h3>A demo form for hotel room reservations</h3>
     <asp:Panel ID="Panel1" runat="server" GroupingText="Customer Information">
         <asp:Label ID="Label1" runat="server" Text="Full Name: " AssociatedControlID="NameTextBox"></asp:Label>
@@ -47,5 +52,7 @@
     <br />
     <asp:Button ID="Reset1" runat="server" Text="Clear Form" OnClientClick="this.form.reset(); return false;" />
     <asp:Button ID="Submit1" runat="server" Text="Request Reservation" />
+    <br />
+    <br />
 </asp:Content>
 

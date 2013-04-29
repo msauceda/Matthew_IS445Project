@@ -1,0 +1,39 @@
+﻿body {
+    background-color: lightgoldenrodyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1
+{
+    text-align: center;
+    color: darkblue;
+}
+
+#Wizard1
+{
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#NameTextBox
+{
+    width: 140px;
+}
+
+#AddressTextBox
+{
+    height: 44px;
+    width: 232px;
+}
+
+#CardNoTextBox
+{
+    width: 185px;
+}
+
+*
+{
+    font-family: Calibri;
+}

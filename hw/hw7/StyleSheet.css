@@ -1,0 +1,93 @@
+﻿body 
+{
+    font-family: Calibri;
+    background-color: #FFFFCC;
+    width: 650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header
+{
+    text-align: center;
+}
+
+hr
+{
+    height: 8px;
+    background-color: darkolivegreen;
+}
+
+h2
+{
+    text-align: center;
+    color: darkblue;
+}
+
+h3
+{
+    text-align: center;
+}
+
+nav
+{
+    margin: 2em;
+    text-align: right;
+}
+    nav a:link
+    {
+        text-decoration: none;
+    }
+    nav a:hover
+    {
+        text-decoration: underline;
+        color: red;
+        text-transform: uppercase;
+    }
+
+.nav
+{
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+#MainContent
+{
+    border-style: solid;
+    border-color: darkseagreen;
+    border-width: medium;
+    padding: 10px;
+}
+
+#aboutphoto
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.aboutme
+{
+    width: 380px;
+    margin-top: 0px;
+}
+.about
+{
+    text-align: left;
+    color: darkcyan;
+}
+
+footer
+{
+    margin-bottom: 20px;
+    border-top:double;
+    padding-top: 5px;
+}
+
+.footer
+{
+    display: inline;
+    padding: 0px 20px;
+    font-size: 11px;
+    
+}

@@ -1,0 +1,23 @@
+﻿aside.float
+{
+    float: right;
+    width: 226px;
+    height: 170px;
+    background-color: green;
+}
+
+article.float
+{
+    float: left;
+    width: 454px;
+    height: 170px;
+    background-color: darkblue;
+}
+
+footer.float
+{
+    clear: both;
+    width: 680px;
+    height: 25px;
+    background-color: darkkhaki;
+}

@@ -1,0 +1,19 @@
+﻿div.absolute {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    color: white;
+    width: 680px;
+    text-align: center;
+    color: white;
+}
+
+aside.absolute
+{
+    position: absolute;
+    left: 654px;
+    top: 152px;
+    background-color: green;
+    width: 226px;
+    height: 170px;
+}

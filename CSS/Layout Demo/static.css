@@ -1,0 +1,41 @@
+﻿div.layout {
+    width: 680px;
+    text-align: center;
+    color: white;
+}
+
+header.layout
+{
+    width: 680px;
+    height: 50px;
+    background-color: black;
+}
+
+article.layout
+{
+    width: 454px;
+    height: 170px;
+    background-color: darkblue;
+}
+
+section.layout
+{
+    width: 454px;
+    height: 50px;
+    background-color: darkred;
+    margin-top: 15px;
+}
+
+aside.layout
+{
+    width: 226px;
+    height: 170px;
+    background-color: green;
+}
+
+footer.layout
+{
+    width: 680px;
+    height: 25px;
+    background-color: darkkhaki;
+}

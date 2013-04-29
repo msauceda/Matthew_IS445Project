@@ -1,0 +1,23 @@
+﻿#Resume
+{
+    color: darkblue;
+    margin-top: 0px;
+}
+
+#aboutphoto
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.aboutme
+{
+    width: 480px;
+    margin-top: 0px;
+}
+.about
+{
+    text-align: left;
+    color: darkcyan;
+}

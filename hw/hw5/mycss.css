@@ -1,0 +1,27 @@
+﻿body
+{
+    font-family: Calibri;
+    width: 800px;
+    background-color: palegoldenrod;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1
+{
+    text-align: center;
+    color: darkblue;
+}
+
+#invalidAnswer
+{
+    color: red;
+}
+
+section
+{
+    border: solid;
+    border-color: green;
+    border-width: medium;
+    padding: 10px;
+}

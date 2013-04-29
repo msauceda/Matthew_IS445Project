@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Form Demo</title>
+   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+    <header>
+        <h1>Sauceda, Matthew Homework 3</h1>
+        <hr />
+        <nav>
+            <a href="index.html" class="nav">Home</a>
+            <a href="webformdemo.html" class="nav">Web Form Demo</a>
+            <a href="aboutme.html" class="nav">About Me</a>
+        </nav>
+    </header>
+    <h2>Welcome to my Web Form</h2>
+    <h3>A demo form for hotel room reservations</h3>
+
+    <form>
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="FullName" placeholder="FirstName LastName" required="required" /><br />
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="Email" required="required" /><br />
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="Phone" required="required" />
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Room Information</legend>
+            <label for="arrivaldate">Arrival Date:</label>
+            <input type="date" id="arrivaldate" name="ArrivalDate" required="required" /><br />
+            <label for="arrivaltime">Arrival Time:</label>
+            <input type="time" id="arrivaltime" name="ArrivalTime" required="required" /><br />
+            <label for="roomtype">Select Room Type:</label>
+            <select name="roomtype" id="roomtype">
+                <option value="Luxury">Luxury</option>
+                <option value="Standard">Standard</option>
+                <option value="Economic">Economic</option>
+            </select><br />
+            <label for="nights">Number of nights (1 to 30):</label>
+            <input type="number" id="nights" name="NumberofNights" min="1" max="30" value="1" /><br />
+            <label for="guests">Number of guests (maximum 3):</label>
+            <input type="number" id="guests" name="NumberofGuests" max="3" value="0" />
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="promocode">Promo Code:</label>
+            <input type="text" id="promocode" name="PromoCode" pattern="[A-Za-z0-9]{4}" title="Please enter 4 character (alpha numeric) promo code or leave blank." /><br />
+            <label for="specialnotes">Special Notes:</label>
+            <textarea name="SpecialNotes" id="specialnotes" rows="5" cols="40" placeholder="Enter your special requests here"></textarea>
+        </fieldset>
+        <br />
+        <input id="Reset1" type="reset" value="Clear Form" />
+        <input id="Submit1" type="submit" value="Request Reservation" />
+    </form>
+    <br />
+    <footer>
+        <p class="footer">Matthew Sauceda&copy Contact Information</p>
+        <address class="footer"><em>E-mail: </em><a href="mailto: m__sauceda@hotmail.com"><em>m__sauceda@hotmail.com</em></a></address>
+        <address class="footer"><em>Phone: 562-523-1235</em></address>
+    </footer>
+</body>
+</html>

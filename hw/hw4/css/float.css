@@ -1,0 +1,17 @@
+﻿body {
+}
+
+aside
+{
+    float: right;
+}
+
+article
+{
+    float: left;
+}
+
+footer
+{
+    clear: both;
+}
