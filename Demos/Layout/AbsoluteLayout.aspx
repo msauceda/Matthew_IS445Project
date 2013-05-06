@@ -12,7 +12,7 @@
     <section class="layout">&lt;Section One&gt;</section>
             <section class="layout">&lt;Section Two&gt;</section>
         </article>
-        <aside class="layout">&lt;Aside&gt;</aside>
+        <aside class="absolute">&lt;Aside&gt;</aside>
         <footer class="layout">&lt;Footer&gt;</footer>
     </div>
 </asp:Content>

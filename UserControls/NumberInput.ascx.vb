@@ -2,7 +2,7 @@
 Partial Class UserControls_NumberInput
     Inherits System.Web.UI.UserControl
     Protected Sub CustomValidator1_ServerValidate(source As Object, args As ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
-        If IsNumeric(NumberInputTextBox.Text) OrElse String.IsNullOrEmpty(NumberInputTextBox.Text) Then
+        If IsNumeric(NumberInputTextBox.Text) OrElse Not String.IsNullOrEmpty(NumberInputTextBox.Text) Then
             If NumberInputTextBox.Text >= 2 And NumberInputTextBox.Text <= 10 Then
                 args.IsValid = True
             Else
