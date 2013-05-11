@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h2 class="spacing">Form/Layout Demos</h2>
+    <h2 class="spacing">Layout Demos</h2>
     <p>The Layout Demo will feature:</p>
     <ul class="body">
         <li><em>Absolute Layout</em>:  Displays the elements to the exact position that is set.</li>

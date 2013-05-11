@@ -11,10 +11,11 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="NameTextBox" runat="server" ErrorMessage="Full name is a required field." ForeColor="Red"></asp:RequiredFieldValidator><br />
         <asp:Label ID="Label2" runat="server" Text="E-mail Address: " AssociatedControlID="EmailTextBox"></asp:Label>
         <asp:TextBox ID="EmailTextBox" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="EmailTextBox" runat="server" ErrorMessage="E-mail address is a required field." ForeColor="Red"></asp:RequiredFieldValidator><br />
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="EmailTextBox" runat="server" ErrorMessage="E-mail address is a required field." ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="EmailTextBox" runat="server" ErrorMessage="Please enter in a valid e-mail address." ForeColor="Red" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="Dynamic"></asp:RegularExpressionValidator><br />
         <asp:Label ID="Label3" runat="server" Text="Phone: " AssociatedControlID="PhoneTextBox"></asp:Label>
         <asp:TextBox ID="PhoneTextBox" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="PhoneTextBox" runat="server" ErrorMessage="Phone is a required field." ForeColor="Red"></asp:RequiredFieldValidator><br />
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="PhoneTextBox" runat="server" ErrorMessage="Phone is a required field." ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator><br />
     </asp:Panel>
     <br />
     <asp:Panel ID="Panel2" runat="server" GroupingText="Room Information">
@@ -40,7 +41,8 @@
     <br />
     <asp:Panel ID="Panel3" runat="server" GroupingText="OtherInformation">
         <asp:Label ID="Label9" runat="server" Text="Promo Code" AssociatedControlID="PromoCodeTextBox"></asp:Label>
-        <asp:TextBox ID="PromoCodeTextBox" runat="server"></asp:TextBox><br />
+        <asp:TextBox ID="PromoCodeTextBox" runat="server" MaxLength="4"></asp:TextBox>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="PromoCodeTextBox" ErrorMessage="Please leave blank or enter a 4-character code that consists of four alpha numeric characters." ForeColor="Red" ValidationExpression="^[a-zA-Z0-9]{4}$" Display="Dynamic"></asp:RegularExpressionValidator><br />
         <asp:Label ID="Label10" runat="server" Text="Special Notes: " AssociatedControlID="SpecialNotesTextBox"></asp:Label>
         <asp:TextBox ID="SpecialNotesTextBox" runat="server" Columns="40" Rows="5" TextMode="MultiLine" placeholder="Enter your special requests here"></asp:TextBox>
     </asp:Panel>
