@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="RelativeLayout.aspx.vb" Inherits="Demos_Layout_Relative" %>
+﻿<%@ Page Title="Relative Layout Demo" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="RelativeLayout.aspx.vb" Inherits="Demos_Layout_Relative" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="../../CSS/Layout%20Demo/static.css" rel="stylesheet" />

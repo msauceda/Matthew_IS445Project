@@ -2,7 +2,7 @@
 
 function NumberDivision() {
     if (inputAnswer >= 2 && inputAnswer <= 10) {
-        document.write('<h2>Your input number is ' + inputAnswer + '</h2>');
+        document.write('<h3>Your input number is ' + inputAnswer + '</h3>');
         var divideAnswer = (inputAnswer / 2);
         for (var counter = 1; divideAnswer > 0.000001; counter++) {
             divideAnswer /= 2;

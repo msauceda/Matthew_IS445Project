@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="Resume.aspx.vb" Inherits="About_About" %>
+﻿<%@ Page Title="Resume" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="Resume.aspx.vb" Inherits="About_About" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="../CSS/about.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h2 id="Resume">Resume</h2>
+    <h2 class="Resume">Resume</h2>
     <img src="../hw/hw3/images/IMAG0010(2).jpg" alt="About Me Photo" id="aboutphoto" />
     <section class="aboutme">
         <h3 class="about">Education</h3>

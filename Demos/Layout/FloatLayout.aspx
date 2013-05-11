@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="FloatLayout.aspx.vb" Inherits="Demos_Layout_Float" %>
+﻿<%@ Page Title="Float Layout Demo" Language="VB" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="false" CodeFile="FloatLayout.aspx.vb" Inherits="Demos_Layout_Float" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="../../CSS/Layout%20Demo/static.css" rel="stylesheet" />

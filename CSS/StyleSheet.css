@@ -97,7 +97,17 @@ section.NestedLoop
     margin-bottom: 0px;
 }
 
-.star
+h2, .star
 {
     color: darkblue;
+}
+
+h3.home
+{
+    color: darkcyan;
+}
+
+p, ul.body
+{
+    font-size: large;
 }
